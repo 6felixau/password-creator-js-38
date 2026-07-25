@@ -7,3 +7,5 @@ function generatePassword(length = 12) {
         const randomIndex = Math.floor(Math.random() * chars.length);
         password += chars[randomIndex];
     }
+    return password;
+}
